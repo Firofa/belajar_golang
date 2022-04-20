@@ -34,4 +34,13 @@ func main() {
 	nickname = "NotFirofa"
 
 	fmt.Println("My Nickname is Not ", nickname)
+
+	// Deklarasi Multiple Variable
+
+	var (
+		firstString  = "Web"
+		secondString = "Developer"
+	)
+
+	fmt.Println("I am", firstString, secondString)
 }
