@@ -16,8 +16,15 @@ func main() {
 	// If dengan short statement
 	// * If mendukung short statement sebelum kondisi
 	// * Hal ini cocok untuk membuat statement yang sederhana sebelum melakukan pengecekan terhadap kondisi
-	var length = len(name)
-	if length > 5 {
+	// var length = len(name)
+	// if length > 5 {
+	// 	fmt.Println("Terlalu Panjang")
+	// }
+	// Code diatas di go bisa menjadi
+
+	if length := len(name); length > 5 {
 		fmt.Println("Terlalu Panjang")
+	} else {
+		fmt.Println("Nama Mantap")
 	}
 }
